@@ -9,6 +9,13 @@
   <remote  name="linaro"
            fetch="git://git.linaro.org/android/" />
 
+  <!-- Linaro changes -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="dev_dallas_sprint" remote="linaro" />
+  <project path="system/core" name="platform/system/core" revision="dev_dallas_sprint" remote="linaro" />
+  <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="dev_dallas_sprint" remote="linaro" />
+
+
+  <!-- standard Andorid manifest -->
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -108,7 +115,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -170,7 +176,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
