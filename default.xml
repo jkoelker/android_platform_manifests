@@ -6,6 +6,9 @@
   <default revision="refs/tags/android-2.3.3_r1a"
            remote="korg" />
 
+  <remote  name="linaro"
+           fetch="git://git.linaro.org/android/" />
+
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
