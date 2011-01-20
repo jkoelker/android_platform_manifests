@@ -9,11 +9,14 @@
   <remote  name="linaro"
            fetch="git://git.linaro.org/android/" />
 
+  <remote  name="0xbench"
+           fetch="git://gitorious.org/0xbench/" />
+
   <!-- Linaro changes -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="dev_dallas_sprint" remote="linaro" />
   <project path="system/core" name="platform/system/core" revision="dev_dallas_sprint" remote="linaro" />
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="dev_dallas_sprint" remote="linaro" />
-
+  <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- standard Andorid manifest -->
   <project path="build" name="platform/build">
