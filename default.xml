@@ -13,11 +13,11 @@
            fetch="git://gitorious.org/0xbench/" />
 
   <!-- Linaro changes -->
-  <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.2" remote="linaro" />
-  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.2" remote="linaro" />
-  <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.2" remote="linaro" />
+  <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.3" remote="linaro" />
+  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.3" remote="linaro" />
+  <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.2" remote="linaro" />
-  <project path="build" name="platform/build" revision="linaro_android_2.3.2" remote="linaro" >
+  <project path="build" name="platform/build" revision="linaro_android_2.3.3" remote="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
