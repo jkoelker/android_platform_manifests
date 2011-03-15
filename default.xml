@@ -13,7 +13,6 @@
            fetch="git://gitorious.org/0xbench/" />
 
   <!-- Linaro changes -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_2.3.2" remote="linaro" />
   <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.2" remote="linaro" />
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.2" remote="linaro" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.2" remote="linaro" />
@@ -122,6 +121,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
