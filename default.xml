@@ -17,6 +17,7 @@
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.3" remote="linaro" />
+  <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="build" name="platform/build" revision="linaro_android_2.3.3" remote="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -181,7 +182,6 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
 </manifest>
