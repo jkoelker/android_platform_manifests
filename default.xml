@@ -12,6 +12,10 @@
   <remote  name="0xbench"
            fetch="git://gitorious.org/0xbench/" />
 
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/repo/" />
+
+
   <!-- Linaro changes -->
   <project path="device/linaro/beagleboard" name="android/device/linaro/beagleboard" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/pandaboard" name="android/device/linaro/pandaboard" revision="linaro_android_2.3.3" remote="linaro" />
@@ -26,6 +30,9 @@
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" />
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
+
+  <!-- x-loader -->
+  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="0xbench" />
 
   <!-- standard Andorid manifest -->
   <project path="bionic" name="platform/bionic" />
