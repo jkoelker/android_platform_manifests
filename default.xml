@@ -32,7 +32,7 @@
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- x-loader -->
-  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="0xbench" />
+  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="omapzoom" />
 
   <!-- standard Andorid manifest -->
   <project path="bionic" name="platform/bionic" />
