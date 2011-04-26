@@ -17,7 +17,9 @@
 
 
   <!-- Linaro changes -->
+  <project path="device/linaro/beagleboard" name="android/device/linaro/beagleboard" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/pandaboard" name="android/device/linaro/pandaboard" revision="LEB-panda" remote="linaro" />
+  <project path="device/linaro/u8500href" name="android/device/linaro/u8500href" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/common" name="android/device/linaro/common" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="system/vold" name="android/platform/system/vold" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="build" name="android/platform/build" revision="linaro_android_2.3.3" remote="linaro" >
