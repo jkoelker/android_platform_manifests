@@ -13,7 +13,7 @@
            fetch="git://gitorious.org/0xbench/" />
 
   <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/repo/" />
+           fetch="git://git.omapzoom.org/" />
 
 
   <!-- Linaro changes -->
@@ -32,10 +32,9 @@
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- x-loader -->
-  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="omapzoom" />
+  <project path="device/linaro/x-loader" name="repo/x-loader" revision="master" remote="omapzoom" />
 
   <!-- standard Andorid manifest -->
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -109,7 +108,6 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -128,12 +126,19 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="p-gingerbread" remote="omapzoom" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+
+  <!-- TI OMAP enablement / enhancements -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="gingerbread" remote="omapzoom" />
+  <project path="bionic" name="platform/bionic" revision="p-gingerbread" remote="omapzoom" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="p-gingerbread" remote="omapzoom" />
+  <project path="external/skia" name="platform/external/skia" revision="p-gingerbread" remote="omapzoom" />
+
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
