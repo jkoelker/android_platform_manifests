@@ -125,35 +125,16 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base"
-           revision="LEB-panda" remote="linaro" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/ril" name="platform/hardware/ril" />
 
-  <!-- TI OMAP enablement / enhancements -->
-  <project path="hardware/libhardware" name="platform/hardware/libhardware"
-	   revision="p-gingerbread" remote="omapzoom" />
-  <project path="hardware/libhardware_legacy"
-           name="platform/hardware/libhardware_legacy"
-           revision="p-gingerbread" remote="omapzoom" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3"
-           revision="gingerbread" remote="omapzoom" />
-  <project path="hardware/ti/omx" name="platform/hardware/ti/omx" remote="omapzoom" />
-  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
-           revision="memmgr_1.0" remote="omapzoom" />
-  <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
-           revision="syslink-2.0-m1" remote="omapzoom" />
-  <project path="bionic" name="platform/bionic"
-           revision="p-gingerbread" remote="omapzoom" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib"
-	   revision="p-gingerbread" remote="omapzoom" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound"
-           revision="p-gingerbread" remote="omapzoom" />
-  <project path="external/skia" name="platform/external/skia"
-           revision="p-gingerbread" remote="omapzoom" />
-  <project path="external/jpeg" name="platform/external/jpeg"
-           revision="p-gingerbread" remote="omapzoom" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="bionic" name="platform/bionic" />
+  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/jpeg" name="platform/external/jpeg" />
 
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
