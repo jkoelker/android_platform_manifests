@@ -82,7 +82,6 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -152,6 +151,8 @@
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound"
            revision="p-gingerbread" remote="omapzoom" />
   <project path="external/skia" name="platform/external/skia"
+           revision="p-gingerbread" remote="omapzoom" />
+  <project path="external/jpeg" name="platform/external/jpeg"
            revision="p-gingerbread" remote="omapzoom" />
 
   <project path="libcore" name="platform/libcore" />
