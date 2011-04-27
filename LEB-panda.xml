@@ -130,11 +130,13 @@
            revision="LEB-panda" remote="linaro" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
 
   <!-- TI OMAP enablement / enhancements -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware"
+	   revision="p-gingerbread" remote="omapzoom" />
+  <project path="hardware/libhardware_legacy"
+           name="platform/hardware/libhardware_legacy"
            revision="p-gingerbread" remote="omapzoom" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3"
            revision="gingerbread" remote="omapzoom" />
