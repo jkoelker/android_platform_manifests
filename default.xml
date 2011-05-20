@@ -22,6 +22,7 @@
   <project path="device/linaro/u8500href" name="android/device/linaro/u8500href" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="device/linaro/common" name="android/device/linaro/common" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="system/vold" name="android/platform/system/vold" revision="linaro_android_2.3.3" remote="linaro" />
+  <project path="system/core" name="android/platform/system/core" revision="linaro_android_2.3.3" remote="linaro" />
   <project path="build" name="android/platform/build" revision="linaro_android_2.3.3" remote="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -183,7 +184,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
