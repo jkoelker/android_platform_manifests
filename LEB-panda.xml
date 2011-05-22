@@ -35,7 +35,7 @@
   <!-- x-loader -->
   <project path="device/linaro/x-loader" name="repo/x-loader" revision="master" remote="omapzoom" />
   <!-- proprietary-open - aka SGX et friends -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="gingerbread" remote="omapzoom" />
+  <project path="device/ti/proprietary-open" name="android/device/ti/proprietary-open" revision="gingerbread" remote="linaro" />
 
   <!-- standard Andorid manifest -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
