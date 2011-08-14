@@ -27,7 +27,7 @@
 
   <!-- b4 stuff -->
   <project path="device/jkoelker/b4" name="jkoelker/android_device_b4"
-           remote="github" />
+           remote="github" revision="master"/>
 
   <!-- Linaro changes -->
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.4" remote="linaro-android" />
