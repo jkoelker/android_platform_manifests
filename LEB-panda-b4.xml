@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote fetch="git://gitorious.org/0xbench/" name="0xbench"/>
-    <remote fetch="git://gitorious.org/" name="gitorious"/>
-    <remote fetch="git://android.git.linaro.org/" name="korg" review="review.android.git.linaro.org"/>
-    <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
-    <remote fetch="git://git.linaro.org/" name="linaro-other"/>
-    <remote fetch="git://git.omapzoom.org/repo/" name="omapzoom"/>
-    
-   <default remote="korg" revision="refs/tags/android-2.3.4_r1"/>
+  <remote fetch="git://gitorious.org/0xbench/" name="0xbench"/>
+  <remote fetch="git://gitorious.org/" name="gitorious"/>
+  <remote fetch="git://android.git.linaro.org/" name="korg" review="review.android.git.linaro.org"/>
+  <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
+  <remote fetch="git://git.linaro.org/" name="linaro-other"/>
+  <remote fetch="git://git.omapzoom.org/repo/" name="omapzoom"/>
+
+  <default remote="korg" revision="refs/tags/android-2.3.4_r1"/>
 
   <remote  name="github" fetch="git://github.com/" />
 
